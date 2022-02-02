@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./cal.css">
+        <title>calculator</title>
+    </head>
+    <body>
+        <div class="body">
+            <form name="calculator">
+                <input class="screen" type="text" name="dispaly" id="display" disabled>
+            </form>
+            <div class="keys">
+                <p>
+                    <input type="button" value="1" class="button1" onclick="calculator.display.value += '1'"/>
+                    <input type="button" value="2" class="button2" onclick="calculator.display.value +='2'"/>
+                    <input type="button" value="3" class="button3" onclick="calculator.display.value +='3'"/>
+                    <input type="button" value="+" class="button plus" onclick="calculator.display.value +='+'"/>
+                </p>
+                <p>
+                    <input type="button" class="button4" value="4" onclick="calculator.display.value +='4'"/>
+                    <input type="button" class="button5" value="5" onclick="calculator.display.value +='5'"/>
+                    <input type="button" class="button6" value="6" onclick="calculator.display.value +='6'"/>
+                    <input type="button" class="button times"  value="x" onclick="calculator.display.value +='*'"/>
+                </p>
+                <p>
+                    <input type="button" class="button7" value="7" onclick="calculator.display.value +='7'"/>
+                    <input type="button" class="button8" value="8" onclick="calculator.display.value +='8'"/>
+                    <input type="button" class="button9" value="9" onclick="calculator.display.value +='9'"/>
+                    <input type="button" class="button divide"  value="÷" onclick="calculator.display.value +='/'">
+                </p>
+                <p>
+                    <input type="button" class="button0" value="0" onclick="calculator.display.value+='0'"/>
+                    <input type="button" class="equal" value="=" onclick="calculator.display.value=eval(calculator.display.value)"/>
+                    <input type="button" class="button minus" value="-" onclick="calculator.display.value+='-'"/>
+                    <input type="button" class="delete" value="Del" onclick="calculator.display.value=calculator.display.value.slice(0,-1)"/>
+                </p>
+
+            </div>
+            <footer>&copy;Darab 2020</footer>
+        </div>
+    </body>
+</html>

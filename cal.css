@@ -1,0 +1,40 @@
+.body{
+    height: 40rem;
+    width: 50rem;
+    background: #abc;
+    text-align: center;
+}
+
+.screen{
+    border:150px;
+    height:90px;
+    width:280px;
+    border-radius:10px;
+    background-color:rgba(210,220,190,0.2);
+}
+#display{
+    font-size:80px;
+    color:gray;
+}
+form{
+    border:10px; 
+    padding:50px;
+    border-radius:30px;
+    border-top:10px; 
+    border-bottom:50px; 
+    border-left:30px; 
+    background-color:#112233;
+}
+.button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8, .button9, .button0, .button{
+    margin:5px; 
+    padding:20px;
+}
+.equal, .delete, .reset{
+    margin:1px;
+    padding:20px;
+}
+
+.plus, .divide, .times, .minus{
+    padding:20px;
+}
+
